@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IKTPV25_1", "IKTPV25_1.pyproj", "{B32659BA-0195-4329-8DDC-1FDE75DEA04E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B32659BA-0195-4329-8DDC-1FDE75DEA04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32659BA-0195-4329-8DDC-1FDE75DEA04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B475EA60-3151-4D4E-BF06-C89755DCC164}
+	EndGlobalSection
+EndGlobal
