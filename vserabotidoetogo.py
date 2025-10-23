@@ -155,55 +155,55 @@
 #Ülesanne: Kehamassiindeksi (KMI) kalkulaator
 #Koosta programm, mis täidab järgmised tegevused:
 
-print("Tere! Olen sinu uus sõber - Python!")
-nimi = input("Mis sinu nimi on?")
-print(f"{nimi}, oi kui ilus nimi!")
-try: 
-    soov=int(input(f"{nimi}! Kas leian Sinu keha indeksi? 0-ei 1-jah => "))
-    if soov==1:
-        print("Indeksi leidmine")
-        while True:
-            try:
-                pikkus = int(input("Sisesta oma pikkus sentimeetrites: "))
-                if 0 < pikkus <= 250:
-                    break
-                else:
-                    print("Pikkus peab olema vahemikus 0 kuni 250 cm! ")
-            except:
-                print("Vale pikkuse formaat! Palun sisesta täisarv")
-        while True:
-            try:
-                mass = float(input("Sisesta oma kehakaal kilogrammides: "))
-                if 0 < mass <= 200:
-                    break
-                else:
-                    print("Kaal peab olema vahemikus 0 kuni 200 kg!")
-            except:
-                       print("Vale kaalu formaat! Palun sisesta arv. ")
+#print("Tere! Olen sinu uus sõber - Python!")
+#nimi = input("Mis sinu nimi on?")
+#print(f"{nimi}, oi kui ilus nimi!")
+#try: 
+    #soov=int(input(f"{nimi}! Kas leian Sinu keha indeksi? 0-ei 1-jah => "))
+    #if soov==1:
+        #print("Indeksi leidmine")
+        #while True:
+           # try:
+                #pikkus = int(input("Sisesta oma pikkus sentimeetrites: "))
+                #if 0 < pikkus <= 250:
+                    #break
+                #else:
+                    #print("Pikkus peab olema vahemikus 0 kuni 250 cm! ")
+            #except:
+                #print("Vale pikkuse formaat! Palun sisesta täisarv")
+        #while True:
+            #try:
+                #mass = float(input("Sisesta oma kehakaal kilogrammides: "))
+                #if 0 < mass <= 200:
+                    #break
+                #else:
+                    #print("Kaal peab olema vahemikus 0 kuni 200 kg!")
+            #except:
+                       #print("Vale kaalu formaat! Palun sisesta arv. ")
 
         #Arvuta kehamassiindeks (Kmi)
-        indeks = round(mass / (0.01 * pikkus) ** 2, 2)
-        print(f"{nimi}! Sinu keha indeks on: {indeks}")
-        if indeks < 16:
-            hinnang = "Tervisele ohtlik alakaal"
-        elif 16 <= indeks <= 19:
-            hinnang = "Alakaal"
-        elif 20 <= indeks <= 25:
-            hinnang = "Normaalkaal"
-        elif 26 <= indeks <= 30:
-            hinnang = "Ülekaal"
-        elif 31 <= indeks <= 35:
-            hinnang = "Rasvumine"
-        elif 36 <= indeks <= 40:
-            hinnang = "Tugev rasvumine"
-        else:
-            hinnang = "Tervisele ohtlik rasvumine"
-        print("Hinnang:", hinnang) 
-    elif soov==0:
-        print("Kahju! See on väga kasulik info")
-    else:
-        print("Vale valik. Saab valida ainult 1 või 0")
-except:
-    print("Vale soov!")
-print(f"Kohtumiseni, {nimi}, Igavesti Sinu, Python!")
+        #indeks = round(mass / (0.01 * pikkus) ** 2, 2)
+        #print(f"{nimi}! Sinu keha indeks on: {indeks}")
+        #if indeks < 16:
+            #hinnang = "Tervisele ohtlik alakaal"
+        #elif 16 <= indeks <= 19:
+            #hinnang = "Alakaal"
+        #elif 20 <= indeks <= 25:
+           # hinnang = "Normaalkaal"
+        #elif 26 <= indeks <= 30:
+            #hinnang = "Ülekaal"
+        #elif 31 <= indeks <= 35:
+            #hinnang = "Rasvumine"
+        #elif 36 <= indeks <= 40:
+            #hinnang = "Tugev rasvumine"
+        #else:
+            #hinnang = "Tervisele ohtlik rasvumine"
+        #print("Hinnang:", hinnang) 
+    #elif soov==0:
+        #print("Kahju! See on väga kasulik info")
+    #else:
+       # print("Vale valik. Saab valida ainult 1 või 0")
+#except:
+    #print("Vale soov!")
+#print(f"Kohtumiseni, {nimi}, Igavesti Sinu, Python!")
 # maja rabota 
