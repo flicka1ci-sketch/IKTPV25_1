@@ -47,3 +47,4 @@ for i in range(8):
 
 print(f"Positiivsete arvude korrutis on: {korrutis}")
 input("Vajuta Enter, et lõpetada...")
+# pupuppu
