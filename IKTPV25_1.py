@@ -206,3 +206,4 @@ try:
 except:
     print("Vale soov!")
 print(f"Kohtumiseni, {nimi}, Igavesti Sinu, Python!")
+# maja rabota 
