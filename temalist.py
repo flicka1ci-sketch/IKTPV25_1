@@ -1,0 +1,116 @@
+# #list - loend 
+# #Loome listi
+# #l=[] #tühi list
+# l=[]
+# print(f"Listi algseis: {l}")
+# while True:
+#     print("1. Lisa element")
+#     while True:
+#         print("tee valik:")
+#         print("1-lisa elemente\n2-Lisa elemente pos-le\n3-Eemalda elemente pos järgi")
+#         print("4-eemalda elementi nime järgi")
+#         print("5-Lisab kõik teise listi elemendid lõppu\n6-Sorteerib listi\n7-Pöörab järjekorra ümber\n8-Tühjendab listi\n9-lõpp")
+#         try:
+#             valik=int(input())
+#             break
+#         except:
+#             print("Arvud: 1...n")
+#     print("Töö listiga")
+#     if valik==1:
+#         while True:
+#             try:
+#                 i=int(input("Mitu elementi soovid lisada? "))
+#                 if i>0:
+#                     break
+#                 else:
+#                     print("Arvud on vaja >0")
+#             except:
+#                 print("Täisarvud on vaja kasutada")
+#         for element_id in range(i):
+#             element_id = input(f"{element_id}. element: ")
+#             l.append(element_id)
+#         print(f"Uuendatud list on {l}")
+#     elif valik==2:
+#         while True:
+#             try:
+#                 pos=int(input(f"Positsioon kuhu soovid lisada (0-{len(l)}): "))
+#                 if 0<=pos<=len(l):
+#                     break
+#                 else:
+#                     print(f"Positsioon peab olema vahemikus 0 kuni {len(l)}")
+#             except:
+#                 print("Täisarvud on vaja kasutada")
+#         element = input("Sisesta element mida soovid lisada: ")
+#         l.insert(pos, element)
+#     elif valik==3:
+#         while True:
+#             try:
+#                 pos=int(input(f"Positsioon kust soovid eemaldada (0-{len(l)-1}): "))
+#                 if 0<=pos<=len(l)-1:
+#                     break
+#                 else:
+#                     print(f"Positsioon peab olema vahemikus 0 kuni {len(l)-1}")
+#             except:
+#                 print("Täisarvud on vaja kasutada")
+#         eem_element=l.pop(pos) #eemaldab elemendi soovitud positsionilt
+#         print(f"Eemaldatud element on {eem_element}")
+#     elif valik==4:
+#         element=input("Sisesta element mida soovid eemaldada: ")
+#         mitu=l.count(element)
+#         if mitu==0:
+#             print("Elementi ei leitud")
+#         else:
+#             for e in range(mitu):
+#                 print(f"Eemaldatud element: '{element}' {l.index(element)} positsioonilt")
+#                 l.remove(element)
+#             print(f"eemaldati {mitu} elementi")
+#     elif valik == 5:
+#         while True:
+#             data = input("Sisesta elemendid komadega (või jäta tühjaks, et katkestada): ")
+#             if data.strip() == "":
+#                 print("Tegevus katkestatud.")
+#                 break
+#             uus_list = [x.strip() for x in data.split(",")]
+#             if len(uus_list) == 0:
+#                 print("Midagi ei sisestatud. Proovi uuesti.")
+#                 continue
+
+#             l.extend(uus_list)
+#             print("Listi laiendatud:", l)
+#             break
+#     elif valik == 6:
+#         while True:
+#             if len(l) == 0:
+#                 print("List on tühi — midagi pole sorteerida.")
+#                 break
+
+#             print("Kas soovid listi sorteerida? (jah/ei)")
+#             ans = input("> ").lower()
+
+#             if ans == "ei":
+#                 print("Tegevus katkestatud.")
+#             break
+#     elif valik == 7:
+#         while True:
+#             if len(l) == 0:
+#                 print("List on tühi — midagi pole ümber pöörata.")
+#                 break
+
+#             print("Kas soovid listi ümber pöörata? (jah/ei)")
+#             ans = input("> ").lower()
+
+#             if ans == "ei":
+#                 print("Tegevus katkestatud.")
+#                 break
+#             elif ans == "jah":
+#                 l.reverse()
+#                 print("Listi järjekord pööratud:", l)
+#                 break
+#            else:
+#                 print("Vastus peab olema 'jah' või 'ei'.")
+#     elif valik == 8:
+#         l.clear()
+#         print("List on tühjendatud.")
+#     elif valik == 9:
+#         print("Lõpetame programmi.")
+#     break

@@ -31,20 +31,19 @@
 # Leida nende korrutis
 # (ainult positiivsete arvude puhul).
 
-korrutis = 1
-print("Sisesta 8 positiivset täisarvu:")
+#korrutis = 1
+#print("Sisesta 8 positiivset täisarvu:")
 
-for i in range(8):
-    while True:
-        arv_input = input(f"{i+1}. arv: ")
-        if arv_input.isdigit() and int(arv_input) > 0:
-            arv = int(arv_input)
-            break
-        else:
-            print("Viga! Palun sisesta positiivne täisarv.")
+#for i in range(8):
+    #while True:
+        #arv_input = input(f"{i+1}. arv: ")
+        #if arv_input.isdigit() and int(arv_input) > 0:
+        #            arv = int(arv_input)
+        #                        break
+        #                                else:
+        #                                            print("Viga! Palun sisesta positiivne täisarv.")
+        #                                                korrutis *= arv
 
-    korrutis *= arv
-
-print(f"Positiivsete arvude korrutis on: {korrutis}")
-input("Vajuta Enter, et lõpetada...")
+#print(f"Positiivsete arvude korrutis on: {korrutis}")
+#input("Vajuta Enter, et lõpetada...")
 # pupuppu

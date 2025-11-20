@@ -1,4 +1,4 @@
-
+ 
 
 # 2.
 #Mis tüüpi on järgnevad muutujad:
