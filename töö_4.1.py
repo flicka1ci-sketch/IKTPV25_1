@@ -202,10 +202,6 @@
 # kuvama nimega tervituse (suur algustäht) 😊
 # loendama tähti, täishäälikuid ja kaashäälikuid
 # kuvama nime tähed tähestiku järjekorras (ilma kordusteta) 🔤
-
-# from msvcrt import kbhit
-
-
 # nime = input("Sisesta oma nimi: ")
 # if not nime.isalpha():
 #     print("Nimi peab sisaldama ainult tähti.")
@@ -219,6 +215,55 @@
 #     print(f"Sinu nimes on {täishäälikud} täishäälikut ja {kaashäälikud} kaashäälikut.")
 #     unikaalsed_tähed = sorted(set(nime.lower()))
 #     print("Sinu nime tähed tähestiku järjekorras (ilma kordusteta):", ''.join(unikaalsed_tähed))
+
+
+#Töötajate andmed 💼
+# Leia antud andmete põhjal:
+# suurima palgaga töötaja
+# keskmine palk
+# mitu teenib üle keskmise
+# keskmine vanus gruppidel: ≤ keskmine ja > keskmine
+# töötajad = [
+#     {'nimi': 'Artjom', 'palk': 1500, 'vanus': 28},
+#     {'nimi': 'Marina', 'palk': 1200, 'vanus': 34},
+#     {'nimi': 'Petja', 'palk': 1800, 'vanus': 45},
+#     {'nimi': 'Kati', 'palk': 1600, 'vanus': 29},
+#     {'nimi': 'Jaan', 'palk': 1100, 'vanus': 18}
+# ]
+# suurim_palk = max(töötajad, key=lambda x: x['palk'])
+# print(f"Suurima palgaga töötaja on {suurim_palk['nimi']} ") 
+# keskmine_palk = sum(t['palk'] for t in töötajad) / len(töötajad)
+# print(f"Keskmine palk on {keskmine_palk:.2f} ")
+# üle_keskmise = sum(1 for t in töötajad if t['palk'] > keskmine_palk)
+# print(f"Töötajaid, kes teenivad üle keskmise, on {üle_keskmise} ")
+# vanused_keskmine = sum(t['vanus'] for t in töötajad) / len(töötajad)
+# nooremad = [t['vanus'] for t in töötajad if t['palk'] <= keskmine_palk]
+# vanemad = [t['vanus'] for t in töötajad if t['palk'] > keskmine_palk]
+# keskmine_nooremad = sum(nooremad) / len(nooremad) if nooremad else 0
+# keskmine_vanemad = sum(vanemad) / len(vanemad) if vanemad else 0
+# print(f"Keskmine vanus töötajatel, kes on nooremad või võrdne keskmisega: {keskmine_nooremad:.2f} ")
+# print(f"Keskmine vanus töötajatel, kes on vanemad kui keskmine: {keskmine_vanemad:.2f} ")
+
+
+
+#Inglise tähestik 🔡
+# Koosta:
+# loend tähtedest ‘a’, ‘b’, ‘c’ ...
+# loend: ‘a’, ‘bb’, ‘ccc’, ‘dddd’ ...
+
+# tähed = [chr(96 + i) for i in range(1, 27)]
+
+# Loend: 'a', 'bb', 'ccc', ...
+# loend = [t * (i + 1) for i, t in enumerate(tähed)]
+# print("Inglise tähestik:")
+# print(tähed)
+# print("\nLoend: 'a', 'bb', 'ccc', ...")
+# print(loend)
+
+
+
+
+
 
 
 

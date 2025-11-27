@@ -27,11 +27,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Kivi-paber-käärid.py" />
+    <Compile Include="Kivi-paber-käärid_4.2.py" />
     <Compile Include="töö_4.1.py" />
-    <Compile Include="temalist.py" />
+    <Compile Include="teema_list.py" />
     <Compile Include="vserabotidoetogo.py" />
-    <Compile Include="kordused.py" />
+    <Compile Include="kordused_3.1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
