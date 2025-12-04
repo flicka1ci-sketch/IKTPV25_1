@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b32659ba-0195-4329-8ddc-1fde75dea04e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>töö_4.1.py</StartupFile>
+    <StartupFile>Tavaline_fail.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,10 +28,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Kivi-paber-käärid_4.2.py" />
+    <Compile Include="Tavaline_fail.py" />
     <Compile Include="töö_4.1.py" />
     <Compile Include="teema_list.py" />
-    <Compile Include="vserabotidoetogo.py" />
+    <Compile Include="töö_1.1.py" />
     <Compile Include="kordused_3.1.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mooduli_fail.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
