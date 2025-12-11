@@ -106,14 +106,14 @@
 #(igal aastal suureneb hoiusumma 10%, ka intressile arvestatakse järgmise aasta intress).
 #kirjuta funktsioon bank, mis võtab argumendid a ja years, ning tagastab lõppsumma kasutaja kontol.
 
-def bank(a:float,years:int)->float:
-	""" arvutab lõppusumma koos intressiga
-	:param float a: algsumma
-	:param int years:aastate arv
-	:return/rtype: lõppsumma float
-	"""
-	intress=0,1 # see on 10%
-	for i in range(years):
-		a+=a*intress
-	return a 
+# def bank(a:float,years:int)->float:
+# 	""" arvutab lõppusumma koos intressiga
+# 	:param float a: algsumma
+# 	:param int years:aastate arv
+# 	:return/rtype: lõppsumma float
+# 	"""
+# 	intress=0,1 # see on 10%
+# 	for i in range(years):
+# 		a+=a*intress
+# 	return a 
 #6

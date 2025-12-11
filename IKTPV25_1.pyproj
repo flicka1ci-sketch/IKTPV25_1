@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b32659ba-0195-4329-8ddc-1fde75dea04e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tavaline_fail.py</StartupFile>
+    <StartupFile>MyTavaline.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,7 +27,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="chernovik.py" />
     <Compile Include="Kivi-paber-käärid_4.2.py" />
+    <Compile Include="MyModule.py" />
+    <Compile Include="MyTavaline.py" />
     <Compile Include="Tavaline_fail.py" />
     <Compile Include="töö_4.1.py" />
     <Compile Include="teema_list.py" />

@@ -42,3 +42,9 @@
 # month = int(input("Sisesta kuu number (1-12): "))
 # print(season(month))
 
+#Kirjuta funktsioon XOR_cipher, mis võtab 2 argumenti: sõne, 
+#mida tuleb krüpteerida, ja krüpteerimisvõti. 
+#Funktsioon tagastab sõne,
+# mis on krüpteeritud rakendades XOR-funktsiooni (^) iga tähe ja võtme vahel.
+#Kirjuta ka funktsioon XOR_uncipher,
+# mis taastab algse sõne, kasutades krüpteeritud teksti ja võtit.
