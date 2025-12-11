@@ -26,3 +26,4 @@ while True:
         break
     else:
         print("Vale valik! Proovi uuesti.")
+        #
