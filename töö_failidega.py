@@ -31,3 +31,4 @@ print(sisu)
 # 2. variant
 for rida in sisu:
     print(rida)
+    #1
