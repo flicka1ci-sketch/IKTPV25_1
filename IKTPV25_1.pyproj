@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b32659ba-0195-4329-8ddc-1fde75dea04e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>töö_failidega.py</StartupFile>
+    <StartupFile>failidegamodule.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -38,9 +38,11 @@
     <Compile Include="teema_list.py" />
     <Compile Include="töö_1.1.py" />
     <Compile Include="kordused_3.1.py" />
-    <Compile Include="töö_failidega.py" />
+    <Compile Include="7.3failidegatöö.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="failidegamodule.py" />
+    <Content Include="failidegatöö.py" />
     <Content Include="Mooduli_fail.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
