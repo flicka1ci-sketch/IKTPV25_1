@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b32659ba-0195-4329-8ddc-1fde75dea04e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>failidegamodule.py</StartupFile>
+    <StartupFile>helpmodule.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="helpmodule.py" />
     <Compile Include="Kivi-paber-käärid_4.2.py" />
     <Compile Include="e-kirja.py">
       <SubType>Code</SubType>
